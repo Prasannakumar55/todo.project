@@ -1,0 +1,123 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    color: white;
+    margin-left: 300px;
+    margin-top: 150px;
+}
+p {
+    color: white;
+    margin-left: 300px;
+    font-size: 20px;
+}
+.showpage {
+    margin-top: 200px;
+    margin-left: 700px;
+    display: none;
+
+}
+.Addtrip {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 150px;
+    background-color:white; 
+    border-radius: 5px;
+    border: 2px solid tomato;
+    position: absolute;
+    left: 700px;
+    top: 300px;
+    color: tomato;
+    align-items: center; 
+    display: none; 
+}
+
+.Addtrip > input {
+    margin-left: 40px;
+}
+
+.Addtrip > div {
+    padding: 20px;
+    margin-left: 50px;
+}
+
+.Addtrip > h3 {
+    margin-left: 70px;
+    
+} 
+
+.Addtrip > div > button {
+    width: 50px;
+    height: 30px;
+    padding: 5px;
+    color: aliceblue;
+    background-color: rgb(255, 84, 54);
+    border: 1px solid white;
+    border-radius: 15px;
+}
+
+#para {
+    position: absolute;
+    right: 250px;
+    top: 130px;
+    font-size: 30px;
+} 
+
+#AddButton {
+    height:40px;
+    width: 40px;
+    background-color:  rgb(61, 142, 255);
+    color: black;
+    border: 1px solid rgb(64, 144, 255);
+    border-radius: 50%;
+    position: absolute;
+    right: 400px;
+    top: 156px;
+}
+.Cards-container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.Cards > h4 {
+    text-align: center;
+}
+/*.Cards > .add {
+    position: absolute;
+    bottom: 230px;
+    left: 90px;
+    background-color: white;
+    border-radius: 50%;
+}
+.Cards > .delete {
+    position: absolute;
+    bottom: 230px;
+    left: 120px;
+    background-color: white;
+    border-radius: 50%;
+}*/
+.Cards {
+    width: 150px;
+    height: 250px;
+    background-color: pink;
+    border: 2px solid white;
+    border-radius: 7px;
+}
+.Items{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 150px;
+    background-color:white; 
+    border-radius: 5px;
+    border: 2px solid tomato;
+    position: absolute;
+    left: 700px;
+    top: 300px;
+    color: tomato;
+    align-items: center; 
+    display: none;
+}

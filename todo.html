@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+   rel="stylesheet">
+   <link rel="stylesheet" href="todo.css">
+   <title>Document</title>
+   
+</head>
+<body>
+   
+  <section class="hidepage">
+   <h1>Task List</h1>
+   <p>No items in the todo list</p>
+   <button id="AddButton" onclick="Addtask()" class="material-icons">add</button>
+   <p id="para">Add item</p> 
+  </section> 
+   
+  <section class="showpage"></section>
+
+   <div class="Addtrip">
+       <h3>Add New List</h3>
+       <input type="text" placeholder="Add New List" id="AddText">
+     <div>
+       <button onclick="AddCard()">Add</button>
+       <button onclick="Closetask()">Close</button>
+     </div>  
+   </div>
+    
+   <div class="Cards-container">
+         
+    </div>
+
+    <div class="Items">
+        <h3>Add the items</h3>
+        <input type="text" placeholder="Add items" id="AddText2">
+          <div>
+            <button onclick="AddMenuitems()">Add</button>
+            <button>Close</button>
+          </div>  
+    </div>
+  
+  
+
+   <script src="./todo.js"></script>
+</body>
+</html>
+
